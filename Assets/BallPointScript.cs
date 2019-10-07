@@ -10,11 +10,13 @@ public class BallPointScript : MonoBehaviour
 
     void Start(){
         lr = GetComponent<LineRenderer>();
+        for(int i = 0; i < MAXVAL; i++){
+            lr.SetPosition(i, this.transform.position);
+        }
         index = 0;
     }
     
     void Update(){
-        
         lr.SetPosition(index, this.transform.position);
         index++;
         if(index >= MAXVAL){

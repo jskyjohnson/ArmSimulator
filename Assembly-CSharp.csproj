@@ -57,6 +57,7 @@
   <ItemGroup>
      <Compile Include="Assets\BallPointScript.cs" />
      <Compile Include="Assets\Motor1Controller.cs" />
+     <Compile Include="Assets\ToObject.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/home/sky/Dev/Simple Drawing Thing/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
